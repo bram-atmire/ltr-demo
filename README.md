@@ -47,7 +47,7 @@ docker exec ltr-demo_webapp_1 ./manage.py train linear
 ```
 It will train and upload a linear model - once you run it, you can visit `http://localhost:5000/stats` and see the new model. 
 
-5. To train and upload a linear model to Apache Solr execute: 
+5. To train and upload a tree model to Apache Solr execute: 
 ```
 docker exec ltr-demo_webapp_1 ./manage.py train lambdamart 
 ```
